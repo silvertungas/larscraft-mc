@@ -12,7 +12,7 @@ services:
       #TYPE: FORGE
       MOD_PLATFORM: AUTO_CURSEFORGE
       CF_MODPACK_ZIP: /downloads/parasites.zip
-      CF_API_KEY: $$2a$$10$$2P59s0cYe5O5cTdY7zi.jOnjgNbXOEbaIy5Wcd6oj6749mueSsPX6
+      CF_API_KEY: ${CF_KEY} #declared in .env file
       CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/parasites-100-days/files/5115566
       #This mod messes everything up, might need to manually remove it from /mods-folder aswell
       CF_OVERRIDES_EXCLUSIONS: mods/voicechat-forge-1.12.2-2.4.32.jar

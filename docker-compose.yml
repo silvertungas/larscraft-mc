@@ -18,16 +18,7 @@ services:
       CF_OVERRIDES_EXCLUSIONS: mods/voicechat-forge-1.12.2-2.4.32.jar
       CF_IGNORE_MISSING_FILES: mods/voicechat-forge-1.12.2-2.4.32.jar
       CF_EXCLUDE_MODS: mods/voicechat-forge-1.12.2-2.4.32.jar
-      #https://www.curseforge.com/minecraft/modpacks/parasites-by-forge-labs/files/3279040
-      #https://www.curseforge.com/minecraft/mc-mods/hardcore-revival/files/2863239
-        
-      #https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod-reloaded/files/4892080
-      #https://www.curseforge.com/minecraft/mc-mods/future-mc/files/5626387
-      #https://www.curseforge.com/minecraft/mc-mods/scape-and-run-parasites-nests-addon-by-nocube/files/4048252
-      #https://www.curseforge.com/minecraft/mc-mods/scape-and-run-parasites-survival-addon-by-nocube/files/4048221
-      #https://www.curseforge.com/minecraft/mc-mods/scape-and-run-parasites-addon-by-nocube/files/4051307
-      #CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/parasites-100-days/files/5115566
-      #CF_MODPACK_ZIP: /downloads/parasite-modpack.zip
+      MOTD: "Lars... Lars never changes"
       MEMORY: 4G
       
     volumes:
